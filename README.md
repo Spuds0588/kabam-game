@@ -1,5 +1,7 @@
 # Kabam
 
+[Play the Alpha](https://spuds0588.github.io/kabam-game/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A cooperative, multiplayer, browser-based roguelite set in an isometric world.
