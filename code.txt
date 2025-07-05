@@ -1,0 +1,69 @@
+Kabam Development Checklist
+--------------------------
+
+### Core Engine & Setup
+[x] Establish Project Structure (Folders, main.js, config.js)
+[x] Implement Isometric Rendering (setDepth)
+[x] Implement Fullscreen Scaling
+[x] Add Basic Physics & Colliders
+[ ] Integrate a Pathfinding Library (e.g., EasyStar.js)
+
+### Player Systems
+[x] Implement WASD Keyboard Movement
+[x] Implement HTML5 Gamepad Support (Movement & Aiming)
+[x] Implement Pointer-Lock & "Cone of Vision" Aiming
+[x] Implement Component-Based Health System (Health.js)
+[x] Implement Player Death (disables actions)
+[ ] Implement Dash Ability
+[ ] Implement Block & Deflection System
+[ ] Implement Throw Weapon Ability
+[ ] Implement "Downed" and "Revival" States
+
+### Combat Systems
+[x] Create Modular Weapon & Projectile Base Classes
+[x] Implement Pistol Weapon with Continuous Firing
+[x] Implement Projectile Damage
+[x] Implement Knockback on Hit
+[x] Add Visual "Flash" Feedback on Hit
+[ ] Implement Shotgun Weapon
+[ ] Implement Melee Weapon Type
+[ ] Add Friendly Fire Toggle
+
+### Construction Systems
+[x] Implement Channeled Building Mechanic
+[x] Create Perspective-Aware Wall Sprites
+[x] Implement Building materials Resource
+[x] Implement Build Preview & Progress Bar
+[x] Walls are destructible with health
+[ ] Implement Wall Upgrading (Levels 1-3)
+[ ] Implement Placeable Traps
+[ ] Implement Automated Turrets
+
+### Enemy & Wave Systems
+[x] Create a WaveManager with Wave/Intermission States
+[x] Implement Procedural Wave Spawning
+[x] Create Base Enemy Class
+[x] Implement Zombie Enemy Type
+[x] Implement BlockBoss Enemy Type with Ranged Attack
+[ ] Implement Enemy that Prioritizes Structures
+[ ] Implement Ranged Enemy
+[ ] Implement Fast, Low-Health Enemy
+
+### UI & UX
+[x] Display Player Health
+[x] Display Player Materials
+[x] Display Temporary Wave Announcements (Start, Cleared)
+[x] Display Intermission Countdown Timer
+
+### Art & Sound
+[ ] Replace All Placeholder Graphics with Final Art
+[ ] Implement Player Animations (Idle, Walk, Attack)
+[ ] Implement Enemy Animations (Idle, Walk, Attack)
+[ ] Add Sound Effects (Shooting, Building, Damage, etc.)
+[ ] Add Background Music
+
+### Content & Balancing
+[ ] Implement Randomized Starting Perk System
+[ ] Create Toughness Perk
+[ ] Create Perfect Deflect Perk
+[ ] Balance Weapon Damage, Enemy Health, and Wave Sizes
